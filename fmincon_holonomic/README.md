@@ -4,7 +4,7 @@ Holonomic MPC using fmincon in MATLAB.
 
 ### Instructions to run:
   
-- `cd` into the directory and make a new `/data` and `\results` directory. This can be done by:
+- `cd` into the directory and make a new `/data` and `/results` directory. This can be done by:
 
   `mkdir <dir>`
   
@@ -33,7 +33,7 @@ Holonomic MPC using fmincon in MATLAB.
 - The black dashed lines denote lane constraints.
 - Obstacle has been assumed to be a circle of a given radius.
 - Initial w and v: v = 1, w = uniform(-0.06,0.06)
-- `vmin = 0`, `vmax = 20`, `wmin = -0.1` `wmax = 0.1`. (Till Video7), `wmin = -0.5`, `wmax = 0.5` for Videos 8,9.
+- `vmin = 0`, `vmax = 20`, `wmin = -0.1` `wmax = 0.1`. (Till Video6), `wmin = -0.5`, `wmax = 0.5` for Videos 8,9.
 - `MaxFunctionEvaluations = 30000`,`MaxIterations = 10000` for Videos 8 and 9.
 - Lane Constraints(where applicable in case of y=x): left => y = x+25, right => y = x-25
 
